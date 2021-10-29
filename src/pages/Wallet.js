@@ -68,7 +68,7 @@ export default function Home() {
       setBalance(null);
       setTransactions([]);
     };
-  }, []);
+  }, [symbol]);
 
   return (
     <Container maxWidth="sm">
